@@ -109,6 +109,12 @@
         max-width: 25rem;
     }
 }
+
+@media (min-width: 800px) {
+    .myName {
+        font-size: 18px;
+    }
+}
 /* footer */
 
 
