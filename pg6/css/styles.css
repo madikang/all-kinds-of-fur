@@ -1,0 +1,188 @@
+body {
+    background-color: #ffe3e3;
+    z-index: -98;
+    overflow-x: hidden;
+}
+
+#navbar {
+    padding: 40px 8px;
+}
+
+#blackLineTitle {
+    width: 30%;
+}
+
+#block1 {
+    position: relative;
+}
+
+#ringKing {
+    width: 100%;
+    background-color:  #fc9e9e;
+    padding-top: 15%;
+}
+
+#block1 p {
+    margin-top: 10%;
+}
+
+#block2 {
+    overflow: hidden;
+    position: relative;
+    margin: 10% 5% 10% 5%;
+}
+
+#innerBlock {
+    display: block;
+    position: relative;
+    z-index: 0;
+    text-align: right;
+    margin-top: 5%;
+}
+
+#whiteBubble{
+    width: 50%;
+}
+
+
+#innerBlock p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(35%, -50%);
+    z-index: 0;
+    width: 30%;
+}
+
+#angryChef {
+    width: 60%;
+    position: relative;
+    margin-top: -50%;
+    border-radius: 50%;
+    z-index: -1;
+    margin-left: -5%;
+}
+
+#block3 {
+    margin-top: -5%;
+    position: relative;
+}
+
+#leftChef {
+    width: 35%;
+    position: relative;
+    margin-left: 7%;
+}
+
+#rightKing {
+    width: 26%;
+    position: relative;
+    margin-left: 28%;
+}
+
+#block3 p {
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+#redGradient {
+    width: 100%;
+    margin-top: -40%;
+}
+
+#block4 {
+    background-color: #e46e6e;
+    margin-top: -2%;
+}
+
+#block4 p {
+    text-align: center;
+}
+
+#block5 {
+    background-color: #e46e6e;
+    display: block;
+    padding: 10%;
+    overflow: hidden;
+
+}
+
+.bubble {
+    display: block;
+    position: relative;
+    margin-bottom: -10%;
+}
+
+.yellow {
+    left: 0;
+
+}
+
+.brown {
+    left: 55%;
+}
+
+.bubbleY {
+    width: 45%;
+}
+
+.bubbleB {
+    width: 50%;
+}
+
+.yellow > p {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.brown > p{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.bubble > p {
+    width: 25%;
+}
+
+#block6 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#block6 p{
+    width: 70%;
+}
+
+#idk {
+    width:25%;
+    margin-top: 5%;
+    transition: 0.4s;
+}
+
+#idk:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+    .bubble > p {
+        min-width: 12%;
+        font-size: 12px
+    }
+    #innerBlock p {
+        min-width: 12%;
+        font-size: 12px
+    }
+}
+
+
+
+
+

@@ -1,0 +1,126 @@
+body {
+    background-color: #ffe3e3;
+    z-index: -98;
+    overflow-x: hidden;
+}
+
+#navbar {
+    padding: 40px 8px;
+}
+
+#whiteLineTitle {
+    width: 30%;
+}
+
+#block1 {
+    display: block;
+    position: relative;
+    z-index: -1;
+    margin-top: 5%;
+}
+
+#doorway {
+    width:100%;
+    position: relative;
+    top: -2rem;
+    z-index: -1;
+}
+
+#block1 .blockRight {
+    z-index: 1;
+    width: 35%;
+    position: absolute;
+    top:55%;
+    right: 2%;
+}
+
+#block2 {
+    margin-top: -15%;
+    z-index: 0;
+    position: relative;
+}
+
+#sunText {
+    margin-bottom: 10%;
+}
+
+#sunDress {
+    width: 100%;
+    position: relative;
+    z-index: inherit;
+}
+
+#gasp {
+    position: absolute;
+    top: 62%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+#block3 {
+    background-color: #fc9e9e;
+    margin-top: -1rem;
+    z-index: 1;
+    position: relative;
+}
+
+#block3 .text {
+    padding-top: 2rem;
+    padding-bottom: 6%;;
+}
+
+#block3 .quote {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 28px;
+    width: 40%;
+}
+
+#heartbeat {
+    width: 85%;
+}
+
+#block4 {
+    z-index: 2;
+    position: relative;
+}
+
+#block4 p{
+    margin: 5% auto 5% auto;
+}
+
+#block5 {
+    position: relative;
+    z-index: 1;
+}
+
+#lightPink {
+    width: 100%;
+    position: absolute;
+    bottom: -30%;
+    z-index: -2;
+}
+
+#innerBlock {
+    width: 100%;
+    padding-top: 5%;
+    z-index: -1;
+    margin-bottom: -12%;
+}
+
+#soup {
+    width: 30%;
+    z-index: 0;
+}
+
+#ring {
+    width: 10%;
+    z-index: 0;
+    padding-bottom: 5%;
+    transition: 0.4s;
+}
+
+#ring:hover {
+    transform: scale(1.2);
+}

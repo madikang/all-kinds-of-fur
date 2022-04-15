@@ -1,0 +1,133 @@
+/* main css */
+
+
+/* loading? */
+
+/* nav */
+#navbar {
+    overflow: hidden;
+    /* background-color: rgba(255, 227, 227, 0.7); */
+    padding: 30px 8px;
+    transition: 0.6s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+}
+
+
+/* title + my name */
+#blackLineTitle {
+    margin: auto;
+    transition: 0.6s;
+}
+
+#whiteLineTitle {
+    width: 30%;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.myName {
+    font-family: angie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+
+/* body */
+ body {
+     margin: 0;
+ }
+
+/* regular font */
+.text {
+    font-family: angie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2.5rem;
+    width: 40%;
+}
+/* italic font */
+.quote {
+    font-family: angie-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 3rem;
+    width: 20%;
+    text-align: center;
+}
+
+/* colors!!! */
+.inBlack {
+    color: black;
+}
+
+.inWhite {
+    color: white;
+}
+
+/* side of text */
+.block {
+    display: block;
+    margin: auto;
+    z-index: 98;
+}
+
+.blockLeft {
+    display: block;
+    margin: 0 0 0 8rem;
+    float: left;
+    z-index: 98;
+
+}
+
+.blockRight {
+    display: block;
+    margin: 0 6rem 0 0;
+    float: right;
+    z-index: 98;
+}
+
+@media (max-width: 800px) {
+    .text {
+        font-size: 14px;
+        line-height: 2.2rem;
+        width: 50%;
+    }
+    .quote {
+        font-size: 18px;
+        line-height: 2.5;
+        min-width: 19rem;
+        max-width: 25rem;
+    }
+}
+/* footer */
+
+
+
+
+/* colors */
+/* 
+light pink: #ffe3e3
+pink: #fc9e9e
+red: #e46e6e
+dark blue: #201b56
+mid blue: #464186
+light blue: #736ead
+yellow: #fed066
+gray: #cccbd8
+tan: #f7bfad
+light brown: #c98e7e
+mid brown: #a26a58
+brown 3: #805044
+brown 4: #5f3429
+black: #0d0927
+ */

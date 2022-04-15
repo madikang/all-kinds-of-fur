@@ -1,0 +1,61 @@
+body {
+    background-color: #fed066;
+    z-index: -98;
+    overflow-x: hidden;
+}
+
+#navbar {
+    padding: 40px 8px;
+}
+
+#blackLineTitle {
+    width: 30%;
+}
+
+#block1 {
+    margin-top: 12%;
+}
+
+#peek {
+    width: 30%;
+}
+
+#block1 p {
+    margin: 5% auto 5% auto;
+}
+
+#block2 {
+    position: relative;
+    z-index: 0;
+}
+
+#moonDress {
+    width: 90%;
+}
+
+#block2 p {
+    margin: 5% auto 5% auto;
+}
+
+#lightPink {
+    margin-top: -32%;
+    width: 100%;
+    z-index: -1;
+}
+
+#block3 {
+    width: 100%;
+    background-color: #ffe3e3;
+    margin-top: -8%;
+    padding-bottom: 17%;
+    z-index: 0;
+}
+
+#wheel {
+    width: 12%;
+    transition: 0.4s;
+}
+
+#wheel:hover {
+    transform: scale(1.2);
+}

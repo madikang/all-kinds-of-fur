@@ -1,0 +1,95 @@
+body {
+    background-color: #fc9e9e;
+    z-index: -98;
+    overflow-x: hidden;
+}
+
+#navbar {
+    padding: 40px 8px;
+}
+
+#blackLineTitle {
+    width: 30%;
+}
+
+#block1 {
+    margin-top: 15%;
+    padding-bottom: 5%;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#hmph {
+    width: 45%;
+    margin-left: 5%;
+    z-index: -1;
+}
+
+#block1 p {
+    margin: 5% 5% 0 5%;
+    z-index: 0;   
+}
+
+#block2 {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 5%;
+}
+
+#dance {
+    width: 128%;
+    z-index: 0;
+    padding-top: 5%;
+}
+
+#block2 p {
+    position: absolute;
+    margin: 0 0 0 10%;
+    width: 40%;
+    bottom: 65%;
+    z-index: 1;
+}
+
+#block3 {
+    background-color: #201b56;
+    position: relative;
+    width: 100%;
+    margin-top: -3%;
+    padding-top: 15%;
+}
+
+#disappear {
+    width: 90%;
+    margin-left: -10%;
+}
+
+#block3 p{
+    position: absolute;
+    width: 45%;
+    bottom: 65%;
+    right: 0%;
+    max-width: 600px;
+}
+
+#block4 {
+    margin-top: 15%;
+}
+
+#block4 p {
+    max-width: 550px;;
+}
+
+#shinyRing {
+    width: 40%;
+    margin-top: 10%;
+    border-radius: 50% 50% 0 0;
+    transition: 0.4s;
+}
+
+#shinyRing:hover{
+    transform: scale(1.2);
+}
