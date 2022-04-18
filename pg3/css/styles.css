@@ -12,6 +12,13 @@ body {
     width: 30%;
 }
 
+.wrapper {
+    background-color: #805044;
+    margin-top: -1%;
+    z-index: 1;
+    position: relative;
+}
+
 #block1 {
     margin: 20% 0 0 0;
     z-index: 0;
@@ -46,13 +53,15 @@ body > .block.text.inWhite{
 #block2 {
     z-index: 0;
     position: relative;
+    overflow-y: hidden;
 }
 
 #brownBG {
-    z-index: -3;
+    z-index: -2;
     opacity: 0;
     width: 100%;
     position: relative;
+    background-color: #805044;
 }
 
 #innerBlock {
@@ -79,4 +88,21 @@ body > .block.text.inWhite{
 
 #walnut:hover {
     transform: scale(1.2)
+}
+
+p.block.block.text.inWhite {
+    z-index: 1;
+    position: relative;
+}
+
+
+@media (max-width: 900px){
+    #block1 {
+        margin-top: 25%;
+    }
+    #lookingUpBox .block {
+        width: 45%;
+        font-size: 12px;
+        margin-top: 2%;
+    }
 }

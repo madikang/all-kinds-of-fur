@@ -12,7 +12,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 99;
+    z-index: 98;
     text-align: center;
 }
 
@@ -96,9 +96,9 @@
     z-index: 98;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 700px) and (max-width: 950px) {
     .text {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 2.2rem;
         width: 50%;
     }
@@ -110,11 +110,47 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
     .myName {
         font-size: 18px;
     }
 }
+
+.please {
+    width: 60%;
+}
+
+.tooSmall {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: none;
+        z-index: 99;
+        cursor: default;
+        background-color: #cccbd8;
+}
+
+.smallStuff {
+    margin-top: 15%;
+}
+
+.tooSmall .block {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 
+}
+
+@media only screen and (max-width: 700px) {
+	body, html {
+    overflow: hidden;
+    }
+    .tooSmall {
+		display: block;
+	}
+}
+
 /* footer */
 
 

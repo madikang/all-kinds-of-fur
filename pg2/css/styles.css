@@ -16,6 +16,12 @@ body {
     min-width: 22rem;
 }
 
+.wrapper {
+    background-color: #201b56;
+    z-index: -98;
+    position:relative;
+}
+
 #block1 {
     display:flex;
     margin: 5% 0 0 0;
@@ -224,15 +230,15 @@ body {
     width: 50%;
     position: absolute;
     left: 0;
-    top: 12rem;
+    top: 28vw;
 }
 
 #starFabric {
     width: 90%;
     position: absolute;
-    right: -5%;
-    margin-top: 74%;
-    transform: rotate(-9deg);
+    right: 0;
+    margin-top: 75vw;
+    
 }
 
 #block6 .block {
@@ -240,7 +246,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 66%;
+    margin-top: 69%;
     width: 40%;
 }
 
@@ -255,17 +261,20 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -30%);
-    bottom: 0;
+    bottom: -7vw;
     z-index: 0;
     border-radius: 50%;
+    
 }
 
 #miniCoat{
     position: relative;
     width: 18%;
-    z-index: 0;
+    z-index: 2;
     transition: 0.4s;
 }
+
+
 
 #lightGlow {
     position: absolute;
@@ -286,3 +295,80 @@ body {
     opacity: 1.0;
 }
 
+
+@media (max-width: 800px){
+    #block1 {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 20%;
+        position: relative;
+        z-index: 1;
+    }
+    #motherDaughter {
+        width: 65%;
+        float: none;
+        position: relative;
+        left: 0;
+        border-radius: 50% 50% 0 0;
+        z-index: -1;
+    }
+
+    #block1 .blockRight {
+        float: none;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        text-align: left;;
+    }
+
+    #block2 .quote {
+        min-width: 30%;
+        font-size: 2vw;
+    }
+
+    #sunPair {
+        width: 70%;
+    }
+
+    #sun {
+        right: -2%;
+    }
+
+    #moonPair {
+        width: 115%;
+        left: 0;
+        float: none;
+    }
+
+    #moon {
+        width: 50%;
+        left: 2%;
+    }
+    #stars {
+        width: 100%;
+    }
+
+    #stars .block.quote.inWhite{
+        min-width: 15%;
+    }
+
+    #block5 .quote {
+        font-size: 2.2vw;
+        min-width: 32%;
+    }
+
+    #block6 .block {
+        font-size: 1.5vw;
+        margin-top: 72%;
+        line-height: 24px;
+    }
+
+    #innerBlock {
+        bottom: -10vw;
+    }
+
+    #starFabric {
+        margin-top: 85vw;
+    }
+}

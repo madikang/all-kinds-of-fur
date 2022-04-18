@@ -12,7 +12,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.opacity = "1";
         document.getElementById("blackLineTitle").style.width = "50%";
     }
-    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
         document.body.style.backgroundColor = "#201b56";
     } else {
         document.body.style.backgroundColor = "#ffe3e3";

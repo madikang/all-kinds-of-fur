@@ -76,7 +76,8 @@ body {
 }
 
 #block4 {
-    margin-top: 15%;
+    padding-top: 15%;
+    background-color: #201b56;
 }
 
 #block4 p {

@@ -106,4 +106,9 @@ body {
     color: #fc9e9e;
     bottom: 2%;
     right: 4%;
+    transition: 0.4s;
+}
+
+.theend:hover {
+    transform:scale(1.2);
 }

@@ -17,7 +17,9 @@ body {
     min-width: 22rem;
 }
 
-.text {min-width: 22rem;}
+.text {
+    min-width: 22rem;
+}
 
 #block1 {
     display: block;
@@ -114,6 +116,7 @@ body {
     position: relative;
     float: left;
     margin: 20% 0 0 8%;
+    
 }
 
 #block5 .quote {
@@ -180,4 +183,39 @@ body {
 
 #glowingQueen:hover {
     transform:scale(1.1);
+}
+
+
+/* @media (max-width: 800px) {
+    #block1 {
+        margin-top: 25%;
+    }
+    #happyCouple {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    #block2 .block.text.inWhite {
+        min-width: 20%;
+    }
+    #darkGradient {
+        bottom: 3rem;
+    }
+
+    #block3 > p {
+        font-size: 11px;
+        min-width: 35%;
+    }
+    .blockLeft > p.text {
+        min-width: 20%;
+    }
+
+    #block5 p.quote {
+        min-width: 20%;
+    }
+        
+    #block6 p {
+        min-width: 45%;
+    } */
+
+
 }
