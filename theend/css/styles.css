@@ -7,8 +7,10 @@ body {
 }
 
 #block1 {
-    margin: 10% 4rem 0 4rem;
-    position: relative;
+    margin: 10% 8% 0 8%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 #block1 p {
@@ -16,19 +18,20 @@ body {
     font-size: 19px;
     line-height: 36px;
     width: 55%;
+    z-index: 1;
+    
 }
 
 #block1 .text {
-    margin-bottom: 3rem;
-}
-
-#block1 .quote {
-    font-size: 24px;
-    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
 #ending {
-    margin-top: 3rem;
-    width: 100%;
+    max-width: 85%;
+    width: auto;
+    height: auto;
     position: relative;
+    display: block;
+    z-index: -2;
 }
