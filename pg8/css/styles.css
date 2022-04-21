@@ -47,7 +47,7 @@ body {
 
 #block2 p {
     position: absolute;
-    margin: 0 0 0 8rem;
+    margin: 0 0 0 9vw;
     width: 40%;
     bottom: 65vw;
     z-index: 1;
@@ -64,6 +64,7 @@ body {
 #disappear {
     width: 90%;
     margin-left: -10%;
+    background-color: #201b56;
 }
 
 #block3 p{
