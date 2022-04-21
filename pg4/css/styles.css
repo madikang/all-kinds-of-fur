@@ -72,7 +72,7 @@ body {
 #block2 .blockLeft.text.inBlack {
     display: block;
     position: relative;
-    margin-top: 55%;
+    margin: 55% 0 0 5rem;
 }
 
 
@@ -144,9 +144,9 @@ body {
     transform: scale(1.2);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     #kingSaid .quote.inBlack {
-        min-width: 12rem;;
+        min-width: 20%;
     }
 }
 

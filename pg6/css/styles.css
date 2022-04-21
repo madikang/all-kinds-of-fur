@@ -117,7 +117,7 @@ body {
 }
 
 .yellow {
-    left: 0;
+    left: -1rem;
 
 }
 
@@ -152,9 +152,10 @@ body {
 }
 
 #block6 {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
+    background-color: #e46e6e;
 }
 
 #block6 p{
@@ -172,14 +173,27 @@ body {
     transform: scale(1.2);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     .bubble > p {
         min-width: 12%;
-        font-size: 12px
+        font-size: 16px
     }
     #innerBlock p {
         min-width: 12%;
-        font-size: 12px
+        font-size: 14px
+    }
+}
+
+@media (max-width: 850px) {
+    #block3 p {
+        font-size: 14px;
+        width: 40%;
+    }
+    .bubble {
+        width: 110%;
+    }
+    .yellow {
+        left: -2rem;
     }
 }
 

@@ -35,7 +35,6 @@ body {
 
 #block2 {
     position: relative;
-    overflow: hidden;
     z-index: 1;
     margin-top: 5%;
 }
@@ -48,9 +47,9 @@ body {
 
 #block2 p {
     position: absolute;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 8rem;
     width: 40%;
-    bottom: 65%;
+    bottom: 65vw;
     z-index: 1;
 }
 
@@ -93,4 +92,20 @@ body {
 
 #shinyRing:hover{
     transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+    #block1 {
+        padding-bottom: 20%;
+    }
+    #block2 p {
+        margin-top: 20%;
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 950px) {
+    #block2 p {
+        margin-left: 5rem;
+    }
 }

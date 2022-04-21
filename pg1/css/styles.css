@@ -68,6 +68,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
+@media (min-width: 700px) and (max-width: 800px) {
+    #block3 .block.quote.inBlack {
+        min-width: 35%;
+        font-size: 16px;
+    }
+}
+
 #lightOnDark {
     width: 80%;
     max-width: 1000px;
@@ -184,6 +191,8 @@ body {
 #glowingQueen:hover {
     transform:scale(1.1);
 }
+
+
 
 
 /* @media (max-width: 800px) {

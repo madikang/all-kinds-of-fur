@@ -123,3 +123,15 @@ body {
 #ring:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 850px) {
+    #block1 .blockRight {
+        width: 50%;
+        top:70%;
+        right: 25%;
+        margin:auto;
+    }
+    #sunText {
+        margin-top: 16vw;
+    }
+}

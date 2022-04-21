@@ -1,13 +1,12 @@
 /* main css */
 
-
 /* loading? */
 
 /* nav */
 #navbar {
     overflow: hidden;
     /* background-color: rgba(255, 227, 227, 0.7); */
-    padding: 30px 8px;
+    padding: 40px 8px;
     transition: 0.6s;
     position: fixed;
     width: 100%;
@@ -146,7 +145,151 @@ nav {
 .tooSmall .block {
     text-align: center;
     font-size: 18px;
-    margin-top: 
+    width: 60%;
+}
+
+/* pagination */
+
+
+#myDropdown {
+    margin-top: -9px;
+    height: 100vh;
+    padding: 0 10px 0 5px;
+}
+
+#smallGrain {
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    width: 190%;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.grain22 {
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    width: 190%;
+    z-index: -2;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.dropbtn:hover > #smallGrain {
+    opacity: 1;
+}
+
+.dropbtn:hover > .grain22 {
+    opacity:1;
+}
+
+.opaque {
+    opacity: 1;
+}
+
+
+.dropbtn {
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    width: 64px;
+    height: 2rem;
+    position: fixed;
+    z-index: 999;
+    top: 1.2rem;
+    left: 1.2rem;
+    scrollbar-color: white #ffe3e3;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    padding: 18px 10px;
+    width: 40px;
+    text-decoration: none;
+    display: block;
+    font-family: angie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    transition: 0.4s;
+    color: #fc9e9e;
+    position: relative;
+    z-index: 1;
+}
+
+.grain {
+    width: 120%;
+    position: absolute;
+    left: -6px;
+    top: -8px;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.4s; 
+}
+
+.grain2 {
+    width: 130%;
+    position: absolute;
+    left: -9px;
+    top: -12px;
+    opacity: 1;
+    z-index: -2;
+}
+
+.dropdown-content a:hover > .grain {
+    opacity: 1;
+}
+
+
+.opened {
+    display: block;
+}
+
+
+.dropdown a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+}
+
+@keyframes animatetop {
+    from {
+    top: -50px;
+    opacity: 0;
+    display: none;
+    }
+
+    to {
+    top: 0;
+    opacity: 1;
+    display: block;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -157,6 +300,8 @@ nav {
 		display: block;
 	}
 }
+
+
 
 /* footer */
 

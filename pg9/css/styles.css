@@ -29,7 +29,7 @@ body {
 }
 
 #block1 p {
-    margin: 0 0 0 6%;
+    margin: 0 4rem 0 6%;
     z-index: 0;   
 }
 
@@ -76,10 +76,11 @@ body {
 }
 
 #block4 {
-    margin-top: 15%;
+    padding-top: 20%;
     margin-bottom: -5%;
     position: relative;
     text-align: right;
+    overflow: hidden;
 }
 
 #block4 p {
@@ -93,8 +94,18 @@ body {
     width: 80%;
     position: relative;
     margin-top: -10%;
+    z-index: -1;
 
+}
 
+#pinkGrain {
+    position: absolute;
+    width: 60%;
+    right: -6rem;
+    bottom: -12rem;
+    z-index: 0;
+    opacity: 0;
+    transition: 0.8s;
 }
 
 .theend {
@@ -106,9 +117,44 @@ body {
     color: #fc9e9e;
     bottom: 2%;
     right: 4%;
-    transition: 0.4s;
+    z-index: 1;
 }
 
-.theend:hover {
+#block4 a {
+    transition: 0.8s;;
+}
+
+#block4 a:hover ~ #pinkGrain {
+    opacity: 1;
+}
+
+#block4 a:hover > .theend  {
+    color: white;
+}
+
+.pulsate {
+    animation: pulsate 2.8s ease-in-out;
+    animation-iteration-count: infinite; 
+    transition: 0.4s;
+}
+@keyframes pulsate {
+    0% { 
+        transform: scale(0.9);
+    }
+    50% { 
+        transform: scale(1);
+    }
+    100% { 
+        transform: scale(0.9);
+    }
+}
+
+.pulsate:hover {
     transform:scale(1.2);
+}
+
+@media (max-width: 850px) {
+    #block3 p {
+        width: 50%;
+    }
 }

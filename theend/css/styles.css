@@ -6,11 +6,36 @@ body {
     margin: 0;
 }
 
-#block1 {
-    margin: 10% 8% 0 8%;
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0; 
     width: 100%;
     height: 100%;
+    z-index: 100;
+    background-color: #ffe3e3;
+    opacity: 1;
+    animation: fade-out 1.5s ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-out {
+    from { 
+        opacity: 1;
+        display: block;
+    }
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+#block1 {
+    width: 100%;
+    height: 100vh;
     z-index: 0;
+    overflow: hidden;
 }
 
 #block1 p {
@@ -23,15 +48,16 @@ body {
 }
 
 #block1 .text {
-    margin-bottom: 5%;
-    margin-top: 10%;
+    margin-bottom: 6vh;
+    margin-top: 12vh;
 }
 
 #ending {
-    max-width: 85%;
-    width: auto;
-    height: auto;
+    max-width: 80vw;
+    max-height: 50vh;;
     position: relative;
     display: block;
     z-index: -2;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
 }

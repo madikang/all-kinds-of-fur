@@ -96,13 +96,13 @@ p.block.block.text.inWhite {
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 950px){
     #block1 {
         margin-top: 25%;
     }
     #lookingUpBox .block {
         width: 45%;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 2%;
     }
 }
